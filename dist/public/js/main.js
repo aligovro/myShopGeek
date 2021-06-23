@@ -10930,7 +10930,7 @@ var cart = {
       }
     });
   },
-  template: "<div class=\"card__info w-100 p-0\">\n                <button class=\"btn-cart\" type=\"button\" @click=\"showCart = !showCart\">\u041A\u043E\u0440\u0437\u0438\u043D\u0430</button>\n                <div class=\"cart-block\" v-show=\"showCart\">\n                    <cart-item v-for=\"(item, i) of cartItems\" :key=\"i\" :img=\"imgCart\" :cart-item=\"item\" @remove=\"remove\">\n                    </cart-item>\n                </div>\n            </div>\n        "
+  template: "<div class=\"card__info w-100 p-0\">\n                <button @click=\"showCart = !showCart\" class=\"header__nav--button header__nav--none btn-cart\">\n                    <img src=\"img/buy.png\" alt=\"user\">\n                </button>\n                <div class=\"cart-block\" v-show=\"showCart\">\n                    <cart-item v-for=\"(item, i) of cartItems\" :key=\"i\" :img=\"imgCart\" :cart-item=\"item\" @remove=\"remove\">\n                    </cart-item>\n                </div>\n            </div>\n        "
 };
 /* harmony default export */ __webpack_exports__["default"] = (cart); //let obj = new WebSocket("ws://localhost")
 
@@ -10982,7 +10982,7 @@ var filterEl = {
       userSearch: ''
     };
   },
-  template: "\n    <form action=\"#\" class=\"search-form\" @submit.prevent=\"$parent.$refs.products.filter(userSearch)\">\n                <input type=\"text\" class=\"search-field\" v-model=\"userSearch\">\n                <button class=\"btn-search\" type=\"submit\">\n                    <i class=\"fas fa-search\"></i>\n                </button>\n            </form>\n    "
+  template: "\n    <form action=\"#\" class=\"search-form\" @submit.prevent=\"$parent.$refs.products.filter(userSearch)\">\n                <input type=\"text\" class=\"search-field\" v-model=\"userSearch\">\n                <button class=\"btn-search\" type=\"submit\">\n                    <img src=\"/img/search.png\" alt=\"\" class=\"header__serach--img\">\n                </button>\n            </form>\n    "
 };
 /* harmony default export */ __webpack_exports__["default"] = (filterEl);
 

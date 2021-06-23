@@ -27,11 +27,7 @@
             </div>
   
             <div class="header__searh">
-              <form class="search__style" action="#">
-                <button class="header__search--button"><img class="header__serach--img" src="img/header/search.png"
-                    alt=""></button>
-                <input type="text" placeholder="Search.." name="search" class="header__search--srtong">
-              </form>
+              <filter-el></filter-el>
             </div>
   
           </div>
@@ -76,17 +72,17 @@
                 <li class="header__menu--point header__menu--margin"><a class="header__menu--link" href="#">Bags</a></li>
               </ul>
             </div>
-            <button onclick="window.location.href = 'registration.html';" class="header__nav--button header__nav--none"><img src="img/header/user.png" alt="user"></button>
-            <button onclick="window.location.href = 'cart.html';" class="header__nav--button header__nav--none"><img src="img/header/buy.png" alt="user"></button>
+            <button class="header__nav--button header__nav--none"><img src="img/header/user.png" alt="user"></button>
+            
+
+            <div class="cart">
+              <cart ref="cart"></cart>
+            </div>
+
           </div>
         </div>
   
       </div>
-  
-      <div class="cart">
-        <filter-el></filter-el>
-        <cart ref="cart"></cart>
-    </div>
 
     </header>
 

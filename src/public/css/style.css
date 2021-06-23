@@ -2058,4 +2058,21 @@ div {
 section.promo, .content__info {
   display: none;
 }
+
+.cart-block {
+  position: absolute;
+  padding: 30px;
+}
+
+.search-field {
+  border-color: #fff;
+  background: transparent;
+  height: 30px;
+}
+
+.btn-search {
+  background: transparent;
+  height: 30px;
+  border-color: transparent;
+}
 /*# sourceMappingURL=style.css.map */
