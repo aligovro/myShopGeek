@@ -85,7 +85,9 @@ const cart = {
             });
     },
     template: `<div class="card__info w-100 p-0">
-                <button class="btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
+                <button @click="showCart = !showCart" class="header__nav--button header__nav--none btn-cart">
+                    <img src="img/buy.png" alt="user">
+                </button>
                 <div class="cart-block" v-show="showCart">
                     <cart-item v-for="(item, i) of cartItems" :key="i" :img="imgCart" :cart-item="item" @remove="remove">
                     </cart-item>
