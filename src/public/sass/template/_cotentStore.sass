@@ -1,0 +1,174 @@
+.store
+  margin-top: 3.1875rem
+
+.store__nav
+  display: flex
+  align-items: flex-start
+  position: absolute
+  z-index: 6
+  
+.burger__text
+  font-family: Lato
+  font-style: normal
+  font-weight: 600
+  font-size: 0.875rem
+  line-height: 1.0625rem
+  color: #000
+    
+.store__burger--menu
+  cursor: pointer
+  position: relative
+  width: 4rem
+  height: 1.0625rem
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.store__span
+  span
+    width: 0.9375rem
+    height: 0.125rem
+    background: #000
+    position: absolute
+    right: 0
+    top: 6px
+    
+  &::after
+    content: ""
+    width: 0.625rem
+    height: 0.125rem
+    position: absolute
+    background: #000
+    top: 10px
+    right: 5px
+  &::before
+    content: ""
+    width: 0.400rem
+    height: 0.125rem
+    position: absolute
+    background: #000
+    bottom: 1px
+    right: 8.5px
+
+.store__span
+  display: flex
+  flex-direction: column
+
+
+.burger__content
+  padding: 0.75rem 1rem 1.75rem 1rem
+
+.store__burger
+  width: 22.5rem
+  
+.store__menu
+  display: none
+  margin-top: 1rem
+  li
+    list-style-type: none
+
+._active
+  display: block
+  height: auto
+  background: #FFFFFF
+  box-shadow: 0 0 10px rgba(0,0,0,0.5)
+  transition: all 0.5s
+      
+._lock
+  display: block
+
+.menu__link
+  text-decoration: none
+  font-family: Lato
+  font-style: normal
+  font-weight: normal
+  font-size: 0.875rem
+  line-height: 1.0625rem
+  color: #6F6E6E
+  &:hover
+    color: #EF5B70
+    transition: all 0.5s
+
+.menu__bags
+  margin: 0.6875rem 0 0.6875rem 0.9rem
+
+.menu__bags--style
+  padding: 0
+
+
+.menu__scroll
+  padding: 0
+  display: flex
+  align-items: center
+  width: auto
+  height: 1.88rem
+  position: relative
+  border-bottom: 1px solid #EBEBEB
+  width: 95%
+  &::before
+    content: ""
+    border-left: 5px solid #EF5B70
+    padding-right: 0.6875rem
+    position: absolute
+    height: 1.9375rem
+
+.menu__heading
+  font-family: Lato
+  font-style: normal
+  font-weight: normal
+  font-size: 0.875rem
+  line-height: 1.0625rem
+  color: #EF5B70
+  text-decoration: none
+  margin-left: 0.6875rem
+
+.scroll__style--top
+  margin-top: 1.5rem
+
+.store__size
+  position: relative
+
+.size__menu
+  position: absolute
+  background: #fff
+  width: 4.9375rem
+  height: 6.4375rem
+  padding: 0.5625rem 0 0.6875rem 0.5625rem
+  box-shadow: 0 0 10px rgba(0,0,0,0.5)
+  display: none
+
+._sizelock
+  display: block
+
+.size__text
+  font-family: Roboto
+  font-style: normal
+  font-weight: normal
+  font-size: 0.875rem
+  line-height: 1rem
+  color: #6F6E6E
+  padding-left: 0.59375rem
+
+.size__input
+  margin-top: 0.3rem
+
+
+@media screen and ( max-width: 800px )
+  .store__burger
+    width: 14.5rem
+
+
+@media screen and ( max-width: 600px )
+  .burger__text
+    display: none
+  .store__burger--menu
+    width: 10px
+  .store__burger
+    width: auto
+
+  ._active
+    position: relative
+    z-index: 10
+
+
+

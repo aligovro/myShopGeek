@@ -1,0 +1,48 @@
+.catalog
+  background-color: #F8F3F4
+  padding-top: 3rem
+
+.catalog__content
+  display: flex
+  justify-content: space-between
+  padding: 3.75rem 0 3.75rem 0 
+
+.catalog__heading--style
+  font-family: Lato
+  font-style: normal
+  font-weight: normal
+  font-size: 1.5rem
+  line-height: 1.8125rem
+  color: #F16D7F
+
+.catalog__nav
+  display: flex
+  align-items: center
+
+.catalog__link
+  text-decoration: none
+  font-family: Lato
+  font-style: normal
+  font-weight: 400
+  font-size: 0.875rem
+  line-height: 1.0625rem
+  color: #636363
+  &:not(:last-child)
+      margin: 0 0.5rem 0 0
+
+
+
+.catalog__active
+  color: #F16D7F
+
+.delimiter
+  &::after
+    content: "/"
+    padding-left: 0.5rem
+
+
+@media screen and ( max-width: 450px )
+  .catalog__content
+    flex-direction: column
+    align-items: center
+  

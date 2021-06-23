@@ -1,0 +1,94 @@
+.content__image--min
+  display: flex
+  justify-content: space-between
+  margin-top: 4.0625rem
+
+.content__image--one
+  position: relative
+  cursor: pointer
+  &::after
+    content: ""
+    position: absolute
+    background: rgba(33, 22, 22, 0.7)
+    z-index: 2
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0.25rem
+  &:hover
+    &::after
+      background: rgba(33, 22, 22, 0.0)
+      transition: 2s
+    
+  
+.content__text--one
+  position: absolute
+  z-index: 3
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  
+
+.content__imageone--size
+  max-width: 22.5rem
+
+.content__text--style
+  margin-top: 6.5625rem
+  font-family: Lato
+  font-style: normal
+  font-weight: normal
+  font-size: 1rem
+  line-height: 1.1875rem
+  color: #FFFFFF
+  margin-bottom: 0
+  text-align: center
+  text-transform: uppercase
+
+.content__heading--style
+  margin-top: 0
+  font-family: Lato
+  font-style: normal
+  font-weight: bold
+  font-size: 1.5rem
+  line-height: 1.8125rem
+  color: #F16D7F
+  text-transform: uppercase
+  text-align: center
+
+
+.content__image--big
+  position: relative
+  margin-top: 1.875rem
+  cursor: pointer
+  &::after
+    content: ""
+    position: absolute
+    background: rgba(33, 22, 22, 0.7)
+    z-index: 2
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0.25rem
+  &:hover
+    &::after
+      background: rgba(33, 22, 22, 0.0)
+      transition: 2s
+
+.content__imagebig--position
+  position: absolute
+  z-index: 3
+  left: 0 
+  right: 0 
+  top: 0
+  bottom: 0
+
+
+.content__text--stylebig
+  margin-top: 4.0625rem
+
+.content__imagebig
+  width: 100%
+  height: 11.25rem
+
+  

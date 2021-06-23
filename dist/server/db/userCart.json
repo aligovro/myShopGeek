@@ -1,0 +1,34 @@
+{
+    "amount": 46600,
+    "countGoods": 4,
+    "contents": [
+        {
+            "id_product": 124,
+            "img_src": "img/fetured1.jpg",
+            "product_name": "Keyboard",
+            "price": 1600,
+            "quantity": 2
+        },
+        {
+            "id_product": 457,
+            "img_src": "img/fetured2.jpg",
+            "product_name": "Gamepad",
+            "price": 3000,
+            "quantity": 20
+        },
+        {
+            "id_product": 123,
+            "img_src": "img/fetured3.jpg",
+            "product_name": "Ноутбук",
+            "quantity": 25,
+            "price": 3000
+        },
+        {
+            "id_product": 456,
+            "img_src": "img/fetured4.jpg",
+            "product_name": "Мышка",
+            "price": 1000,
+            "quantity": 27
+        }
+    ]
+}

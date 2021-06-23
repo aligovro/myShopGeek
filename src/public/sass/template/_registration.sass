@@ -1,0 +1,157 @@
+.registration
+  margin-top: 4rem
+  
+.registration__content
+  display: flex
+  justify-content: space-between
+
+.registration__form
+  width: 30%
+
+.registration__form--info
+  display: flex
+  flex-direction: column
+
+.registration__heading
+  font-family: Lato
+  font-style: normal
+  font-weight: 300
+  font-size: 1rem
+  line-height: 1.1875rem
+  color: #222222
+
+.registration__input
+  padding: 0.8125rem 0 1rem 1.0625rem
+  font-family: Lato;
+  font-style: normal
+  font-weight: 300
+  font-size: 0.8125rem
+  line-height: 1rem
+  color: #B1B1B1
+  border: 1px solid #B1B1B1
+
+.registraion__last
+  margin-top: 1.25rem
+
+.registration__checkbox
+  margin-top: 1.9375rem
+
+.registration__radio--input
+  font-family: Lato
+  font-style: normal
+  font-weight: 300
+  font-size: 0.9875rem
+  line-height: 0.8125rem
+  color: #000000
+  padding: 0 1.25rem 0 0
+  input[type="radio"]
+    margin-right: 0.625rem
+    height: 1.0625rem
+    width: 1.0625rem
+
+.registration__form--text
+  margin-top: 0.9375rem
+  font-family: Lato;
+  font-style: normal
+  font-weight: 300
+  font-size: 0.8125rem
+  line-height: 1rem
+  color: #B1B1B1
+
+.registration__button
+  margin-top: 2.4375rem
+  width: 10.4375rem
+  height: 50px
+  display: flex
+  align-items: center
+  justify-content: center
+  background: #F16D7F
+  border: none
+  font-family: Lato
+  font-style: normal
+  font-weight: normal
+  font-size: 0.875rem
+  line-height: 1.0625rem
+  color: #FFFFFF
+  svg
+    margin-left: 0.625rem     
+  &:hover
+    border: 1px solid #F16D7F
+    background: #fff
+    color: #000
+    transition: 1s
+
+._lockhover
+  fill: #000
+  transition: 1s
+
+.registration__info
+  width: 60%
+
+.registraion__hast
+  font-family: Lato
+  font-style: normal
+  font-weight: 300
+  font-size: 1.5rem
+  line-height: 1.8125rem
+  color: #000000
+
+.registraion__loyalty
+  font-family: Lato
+  font-style: normal
+  font-weight: 300
+  font-size: 1.5rem
+  line-height: 1.8125rem
+  color: #000000
+
+.registration__list--style
+  margin-top: 0.3125rem
+
+.registration__list
+  position: relative
+  list-style-type: none
+  li
+    font-family: Lato
+    font-style: normal
+    font-weight: 300
+    font-size: 1.5rem
+    line-height: 1.8125rem
+    color: #000000
+    margin-top: 1rem
+    display: flex
+    align-items: center
+    &::before
+      content: ""
+      background: url(../img/registration/list.svg)
+      width: 1.25rem
+      height: 1rem
+      position: absolute
+      left: 0
+
+.connection__registration
+  margin-top: 6rem
+  
+
+@media screen and ( max-width: 700px )
+
+  .registration
+    margin-top: 2rem
+
+  .registration__content
+    flex-direction: column
+
+  .registration__form
+    width: auto
+
+  .registration__info
+    width: auto
+
+  .registraion__loyalty
+    font-size: 1rem
+  
+  .registration__list
+     li
+       font-size: 1rem
+
+  .connection__registration
+    margin-top: 2rem
