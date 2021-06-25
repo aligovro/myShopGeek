@@ -48,8 +48,15 @@ module.exports = {
                 use: [MiniCssExtractPlugin.loader, 'css-loader']
             },
             {
-                test: /\.(png|jpg|svg|gif)$/,
-                use: ['url-loader']
+                test: /\.(svg|png|jpg|jpeg|gif)$/,
+                exclude: path.resolve(__dirname, '../src/pulic/img'),
+                use: [{
+                  loader: 'file-loader',
+                  options: {
+                    name: '[name].[ext]',
+                    outputPath: 'img/'
+                  }
+                }]
             },
         ]
     },

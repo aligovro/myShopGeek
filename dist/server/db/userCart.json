@@ -20,7 +20,7 @@
             "id_product": 123,
             "img_src": "img/fetured3.jpg",
             "product_name": "Ноутбук",
-            "quantity": 25,
+            "quantity": 26,
             "price": 3000
         },
         {
@@ -28,7 +28,7 @@
             "img_src": "img/fetured4.jpg",
             "product_name": "Мышка",
             "price": 1000,
-            "quantity": 27
+            "quantity": 28
         }
     ]
 }
